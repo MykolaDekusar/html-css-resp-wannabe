@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,3 +128,53 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+/* RESPONSIVE TABLET */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .steps .container h2 {
+        margin: 0;
+    }
+
+    .col {
+        width: 100% !important;
+    }
+
+    .card {
+        margin: 2rem 0;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .why-us {
+        padding: 2rem 0;
+        background-color: rgb(32, 32, 32);
+        margin: 0;
+    }
+
+    .lessons .container h2 {
+        margin: 0;
+    }
+
+    ul li h3 {
+        margin-top: 3rem;
+    }
+
+}
