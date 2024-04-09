@@ -129,7 +129,6 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* RESPONSIVE TABLET */
 
 /* BONUS EXERCISE */
 @media screen and (max-width: 1160px) {
@@ -138,13 +137,14 @@ img {
     }
 }
 
-
+/* RESPONSIVE TABLET */
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
     }
 }
 
+/* RESPONSIVE SMARTPHONE */
 @media screen and (max-width: 480px) {
 
     .container {
