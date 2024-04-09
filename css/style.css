@@ -147,11 +147,8 @@ img {
 /* RESPONSIVE SMARTPHONE */
 @media screen and (max-width: 480px) {
 
-    .container {
-        width: 100%;
-    }
-
-    .steps .container h2 {
+    .steps .container h2,
+    .lessons .container h2 {
         margin: 0;
     }
 
@@ -174,10 +171,6 @@ img {
     .why-us {
         padding: 2rem 0;
         background-color: rgb(32, 32, 32);
-        margin: 0;
-    }
-
-    .lessons .container h2 {
         margin: 0;
     }
 
